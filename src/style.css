@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	background-color: #eee;
+font-family: 'Bebas Neue', cursive;	font-size: 30px;
+}
+
+
+.App{
+	text-align: center;
+	
+	width: 80%;
+	margin: auto;
+}
+.studentInfo{
+	
+	text-align: center;
+
+
+}
+.card{
+	background-color: #fff;
+	width: 50%;
+	margin: auto;
+	text-align: left;
+	padding: 20px;
+	margin-top: 10px;
+	box-shadow: 10px 10px 10px #ccc;
+}
+.card label{
+	background-color: #fff;
+	color: #f57a7e;
+	padding: 5px;
+}
+.card input[type=radio]{
+	margin: 10px;
+}
+.button{
+	padding:10px;
+	border-radius: 10px;
+	background-color: #f57a7e;
+	width: 200px;
+	margin-top: 10px;
+	cursor: pointer;
+	box-shadow: 10px 10px 10px  #ccc;
+	outline: none;
+}
+.studentInfo input[type=text]{
+	padding: 10px;
+	border-radius: 10px;
+	width: 200px;
+	border:2px solid #f57a7e;
+	margin-top: 10px;
+	outline: none;
+}
+.studentInfo h1{
+ color:#f57a7e;
+}
